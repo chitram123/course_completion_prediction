@@ -28,7 +28,8 @@ A synthetic dataset was created to simulate real-world Moodle platform data.
 
 ##  Data Preprocessing
 - Missing values handled (rows removed ~5%)  
-- Duplicate records removed  
+- Duplicate records removed
+- Unique column removed i.e. user_id
 - Outliers detected using IQR and handled via capping  
 
 ---
